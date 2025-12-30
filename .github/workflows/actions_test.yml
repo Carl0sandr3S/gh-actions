@@ -4,8 +4,8 @@ jobs:
   tets-job:
     runs-on: ubuntu-latest
     steps: 
-    - name: print
-    -  run: echo " this is a test"
+      - name: print
+        run: echo " this is a test"
 
-    - name: print two
-    - run: echo "this is a test two"
+      - name: print two
+        run: echo "this is a test two"
