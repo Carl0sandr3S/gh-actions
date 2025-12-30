@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: print
-        run: echo " this is a test"
+        run: |
+          echo " this is a test"
+          echo " this is a test 2"
 
       - name: print two
         run: echo "this is a test two"
