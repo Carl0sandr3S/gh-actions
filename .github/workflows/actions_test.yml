@@ -1,11 +1,11 @@
 name: tets workflow
 on: workflow_dispatch
 jobs:
-  tets-job
+  tets-job:
     runs-on: ubuntu-latest
     steps: 
     - name: print
     -  run: echo " this is a test"
 
-    -name: print two
+    - name: print two
     - run: echo "this is a test two"
